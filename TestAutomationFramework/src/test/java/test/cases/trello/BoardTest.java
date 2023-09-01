@@ -7,7 +7,7 @@ import pages.trello.BoardsPage;
 
 import static com.telerikacademy.testframework.Utils.getUIMappingByKey;
 
-@FixMethodOrder(MethodSorters.NAME_ASCENDING)
+///@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class BoardTest extends BaseTest {
     private BoardPage boardPage;
     private BoardsPage boardsPage;

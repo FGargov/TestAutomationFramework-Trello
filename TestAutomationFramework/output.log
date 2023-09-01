@@ -1,6 +1,14 @@
-2023-08-28 18:01:13,637 INFO  [main] Initializing WebDriver
-2023-08-28 18:01:20,727 INFO  [main] Initializing WebDriver
-2023-08-28 18:01:20,734 INFO  [main] Initializing WebDriver
-2023-08-28 18:01:22,239 INFO  [main] Clicking on element trello.loginPage.loginButton
-2023-08-28 18:01:24,683 INFO  [main] Clicking on element trello.loginPage.loginSubmitButton
-2023-08-28 18:01:35,620 INFO  [main] Quitting WebDriver
+2023-09-01 17:43:47,663 INFO  [main] Initializing WebDriver
+2023-09-01 17:43:49,117 INFO  [main] Initializing WebDriver
+2023-09-01 17:43:49,118 INFO  [main] Initializing WebDriver
+2023-09-01 17:43:49,119 INFO  [main] Initializing WebDriver
+2023-09-01 17:43:49,119 INFO  [main] Initializing WebDriver
+2023-09-01 17:43:49,934 INFO  [main] Clicking on element trello.loginPage.loginButton
+2023-09-01 17:43:52,126 INFO  [main] Clicking on element trello.loginPage.loginSubmitButton
+2023-09-01 17:43:56,260 INFO  [main] Clicking on element trello.boardsPage.boardByTeamAndName
+2023-09-01 17:43:56,929 INFO  [main] Clicking on element trello.boardPage.addNewList
+2023-09-01 17:43:56,984 INFO  [main] Clicking on element trello.boardPage.listTitleInput
+2023-09-01 17:43:57,040 INFO  [main] Clicking on element trello.createList.button
+2023-09-01 17:43:57,090 INFO  [main] Clicking on element trello.createCard.addNewCard.Button
+2023-09-01 17:43:57,187 INFO  [main] Clicking on element trello.createCard.submitButton
+2023-09-01 17:44:07,804 INFO  [main] Quitting WebDriver

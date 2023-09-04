@@ -147,4 +147,44 @@ public class UserActions {
             Assert.fail("Element with locator: '" + xpath + "' was not found.");
         }
     }
+
+    public void hoverElement(String key, Object... arguments) {
+        // TODO: Implement the method
+        // 1. Get locator value from properties by key
+        // 2. Add Log entry for the action to be performed
+        // 3. Perform a hover Action
+
+/*        String locator = getLocatorValueByKey(key, arguments);
+
+        LOGGER.info("Hovering over" + key);
+
+        Actions actions = new Actions(getWebDriver());
+        WebElement element = getWebDriver().findElement(By.xpath(locator));
+        actions.moveToElement(element).build().perform();*/
+
+    }
+
+    /*waitForElementPresent: Чака за елемент да стане наличен (и може би видим, в зависимост от имплементацията) с конфигурируем таймаут.
+    isElementPresent: Чака до 5 секунди и проверява дали елементът е видим, връща true или false.
+    И двата метода са полезни, но за различни сценарии.
+    waitForElementPresent е по-гъвкав с оглед на конфигурационно зададения таймаут,
+    докато isElementPresent е стриктен и ясен в това, което проверява.*/
+    public boolean isElementPresent(String locator, Object... arguments) {
+        // TODO: Implement the method
+        // 1. Get default timeout from properties
+        // 2. Initialize Wait utility
+        // 3. Try to wait for element present
+        // 4. return true/false if the element is/not present
+
+
+       /* String xpath = getLocatorValueByKey(locator, arguments);
+        WebDriverWait wait = new WebDriverWait(getWebDriver(), Duration.ofSeconds(5));
+        try {
+            wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
+        } catch (Exception e) {
+            return false;
+        }
+        */
+        return true;
+    }
 }
